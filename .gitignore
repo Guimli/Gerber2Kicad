@@ -1,0 +1,17 @@
+# Test fixtures (Gerber/Excellon files + BOM/CPL used to validate the
+# converter) and the KiCad project generated from them.
+/testdata/
+/output/
+
+# KiCad transient/generated files, wherever a conversion is run from
+*.kicad_pcb
+*.kicad_sch
+*.kicad_pro
+*.kicad_prl
+*-backups/
+conversion_report.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/

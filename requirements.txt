@@ -1,0 +1,6 @@
+gerbonara>=1.6
+shapely>=2.0
+# optionnel, pour l'OCR de la sérigraphie (valeurs/nets) — nécessite aussi
+# le binaire tesseract (apt install tesseract-ocr)
+cairosvg
+pillow
